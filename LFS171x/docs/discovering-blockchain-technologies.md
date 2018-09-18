@@ -127,11 +127,13 @@ According to [hyperledger.org](https://www.hyperledger.org),
 
 **Blockchain** is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name 'block-chain'.  Examples of other DLTs are tangle and hashgraph.
 
-A **block** refers to a set of transactions that are bundled together and added to the chain at the same time. In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as '**proof of work**', and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For a brief history of blockchain technology, please click here.
+A **block** refers to a set of transactions that are bundled together and added to the chain at the same time.
 
 Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with **cryptographic hashes**, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.
 
-A block commonly consists of four pieces of metadata:
+In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as '**proof of work**', and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For a brief history of blockchain technology, please click [here](https://hbr.org/2017/02/a-brief-history-of-blockchain).
+
+A Bitcoin block consists of four pieces of metadata:
 
 * The reference to the previous block
 * The proof of work, also known as a nonce
