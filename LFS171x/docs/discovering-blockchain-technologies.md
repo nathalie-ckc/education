@@ -138,7 +138,7 @@ A Bitcoin block consists of four pieces of metadata:
 * The reference to the previous block
 * The proof of work, also known as a nonce
 * The timestamp
-* The Merkle tree root for the transactions included in this block.
+* The Merkle tree root for the transactions included in this block. (Merkle tree is explained next)
 
 ## Merkle Tree
 
