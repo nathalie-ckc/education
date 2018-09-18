@@ -123,13 +123,11 @@ According to [hyperledger.org](https://www.hyperledger.org),
 
 **Consensus** refers to a system of ensuring that parties agree to a certain state of the system as the true state.
 
-## Video: The Difference between DLT and Blockchains (Brian Behlendorf)
-
-[![The Difference between DLT and Blockchains (Brian Behlendorf)](../images/video-image.png)](https://youtu.be/02IAHzvCh34)
-
 ## Blockchains (Continued)
 
-**Blockchain** is a specific form or subset of distributed ledger technologies, which constructs a chronological chain of blocks, hence the name 'block-chain'. A **block** refers to a set of transactions that are bundled together and added to the chain at the same time. In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as '**proof of work**', and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For a brief history of blockchain technology, please click here.
+**Blockchain** is a specific form or subset of distributed ledger technologies (DLTs), which constructs a chronological chain of blocks, hence the name 'block-chain'.  Examples of other DLTs are tangle and hashgraph.
+
+A **block** refers to a set of transactions that are bundled together and added to the chain at the same time. In the Bitcoin blockchain, the miner nodes bundle unconfirmed and valid transactions into a block. Each block contains a given number of transactions. In the Bitcoin network, miners must solve a cryptographic challenge to propose the next block. This process is known as '**proof of work**', and requires significant computing power. We shall discuss proof of work in more detail in the Consensus Algorithms section. For a brief history of blockchain technology, please click here.
 
 Timestamping is another key feature of blockchain technology. Each block is timestamped, with each new block referring to the previous block. Combined with **cryptographic hashes**, this timestamped chain of blocks provides an immutable record of all transactions in the network, from the very first (or genesis) block.
 
